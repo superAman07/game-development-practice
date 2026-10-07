@@ -1,0 +1,10 @@
+CompileFlags:
+  Add:
+    - --target=x86_64-w64-windows-gnu
+    - -std=c++17
+    - -isystemC:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++
+    - -isystemC:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32
+    - -isystemC:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward
+    - -isystemC:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include
+    - -isystemC:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed
+    - -isystemC:/mingw64/x86_64-w64-mingw32/include
