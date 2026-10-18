@@ -16,6 +16,7 @@
 > 3. Check the respective project directory for the student's code and tests.
 > 4. Do **not** skip ahead to heavy engines; adhere to the incremental, hands-on, step-by-step teaching style.
 > 5. Update this file whenever a milestone or module is completed.
+> 6. **Student writes `int main()`**: Do NOT pre-fill complete test suites in `main()`. Give clear requirements and expected behaviors, but leave `int main()` empty for the student to write from scratch so they master end-to-end program flow and debugging.
 
 ---
 
@@ -48,7 +49,7 @@ graph TD
 ## 📊 Current Progress Tracker
 
 - **Current Active Phase**: **Phase 0: Environment Setup & C++ Foundations for Game Dev**
-- **Current Active Lesson**: **Lesson 0.3 - Data Structures & Cache Locality (Why std::vector rules game dev)**
+- **Current Active Lesson**: **Lesson 0.4 - Structs, Classes & Header Separation (`.h` / `.hpp` vs `.cpp`, compile units)**
 - **Status**: 🚀 In Progress
 
 ### Detailed Milestone Checklist
@@ -57,7 +58,7 @@ graph TD
 - [x] **0.0: Toolchain Setup** (MinGW-w64 `g++` configured in User PATH, C++17 verified)
 - [x] **0.1: Memory, Pointers & References** (Stack vs Heap, pointer arithmetic, dereferencing)
 - [x] **0.2: RAII & Modern Smart Pointers** (`std::unique_ptr`, `std::shared_ptr`, avoiding memory leaks)
-- [ ] **0.3: Data Structures & Cache Locality** (Why `std::vector` rules game dev, avoiding pointer chasing)
+- [x] **0.3: Data Structures & Cache Locality** (Why `std::vector` rules game dev, avoiding pointer chasing)
 - [ ] **0.4: Structs, Classes & Header Separation** (`.h` / `.hpp` vs `.cpp`, compile units)
 
 #### Phase 1: The Core Game Loop & Console Engine
@@ -115,3 +116,4 @@ game-dev-practice/
 | 2026-10-01 | **Course Inception & Toolchain Setup** | Initialized master roadmap. Verified MinGW-w64 C++17 compiler (`g++`). Updated user PATH. Established web-to-game dev mapping. |
 | 2026-10-05 | **Lesson 0.1: Memory, Pointers & References** | Successfully implemented addExperience (reference) and teleportPlayer (pointers & nullptr check) in exercise_01.cpp. Configured clangd/IntelliSense header include paths. |
 | 2026-10-05 | **Lesson 0.2: RAII & Smart Pointers** | Implemented std::unique_ptr and std::shared_ptr in exercise_02.cpp. Mastered RAII scope lifetime mechanics and use_count decrement. |
+| 2026-10-18 | **Lesson 0.3: Data Structures & Cache Locality** | Mastered std::vector memory reservation (avoiding heap allocations), reference-based updates in game loops, and the O(1) Swap & Pop pattern in exercise_03.cpp. |
